@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/** CSS Start Here **/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #1d2029;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "DM Serif Display", serif;
+}
+
+/** General **/
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+/** header **/
+
+.header{
+    background-color: #20222f;
+    
+}
+.header h1{
+    font-size: 34px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-top: 40px;
+}
+.on a{
+    font-weight: 700;
+    color: #898fb2;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.on  i{
+    margin-left: 24px;
+    color: #3bc999;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.header h2{
+    font-size: 18px;
+    color: #898fb2;
+    font-weight: 700;
+}
+
+/** section-1 **/
+.sec-1{
+    margin-top: 40px;
+}
+.box{
+    width: 20%;
+    height: 250px;
+    background-color: #252b43;
+    border-top: 6px solid #128ff6;
+    border-radius: 4px;
+}
+/* .social {
+    display: flex;
+    justify-content: center;
+} */
+.social i{
+    margin-top: 30px;
+    color: #128ff6;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 70px;
+}
+.social span{
+    font-size: 16px;
+    color: #898fb2;
+    margin-left: 16px;
+}
+.social h2{
+    font-size: 70px;
+   text-align: center;
+   color: #ffffff;
+}
+.social h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style:initial;
+    text-align: center;
+    color: #898fb2;
+}
+
+.icon .fa-caret-up{
+    margin-top: 10px;
+    color: #35913a;
+    vertical-align: middle;
+    font-size: 18px;
+}
+ .icon span {
+    color: #35913a;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
